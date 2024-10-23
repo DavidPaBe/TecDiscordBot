@@ -1,23 +1,21 @@
 import discord
 import os
+from discord.ext import commands
+import commands as bot_commands  # Importamos los comandos desde otro archivo
 
+# Inicializamos el bot con los intents necesarios
 intents = discord.Intents.default()
 intents.message_content = True
-client = discord.Client(intents=intents)
+bot = commands.Bot(command_prefix='!', intents=intents)
 
-@client.event
+# Registramos los eventos y comandos en el archivo commands.py
+bot_commands.setup(bot)
+
+# Evento que se ejecuta cuando el bot está listo
+@bot.event
 async def on_ready():
-    print(f'Logged in as {client.user}')
+    print(f'Logged in as {bot.user}')
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-
-    if message.content.startswith('!hello'):
-        await message.channel.send(f'Hello {message.author.name}!')
-
-# Obtén el token del bot desde las variables de entorno
+# Inicia el bot usando el token
 TOKEN = os.getenv('DISCORD_TOKEN')
-
-client.run(TOKEN)
+bot.run(TOKEN)
