@@ -16,6 +16,7 @@ def setup(bot):
         embed.add_field(name='📞 Contacto', value='Información de contacto', inline=False)
         embed.set_footer(text="Reacciona con el emoji correspondiente para obtener más información.")
 
+        # Enviar el mensaje embed y agregar las reacciones
         message = await ctx.send(embed=embed)
         await message.add_reaction('📚')
         await message.add_reaction('👨‍🏫')
@@ -23,10 +24,11 @@ def setup(bot):
         await message.add_reaction('🕒')
         await message.add_reaction('📞')
 
+    # Manejo de reacciones
     @bot.event
     async def on_reaction_add(reaction, user):
         if user.bot:
-            return
+            return  # Evitar que el bot responda a sus propias reacciones
         
         if reaction.emoji == '📚':
             await reaction.message.channel.send("Las carreras ofrecidas son: Ingeniería en Sistemas, Mecatrónica, etc.")
