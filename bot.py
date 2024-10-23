@@ -17,7 +17,8 @@ async def on_ready():
     await shutdown_after_time()
 
 async def shutdown_after_time():
-    await asyncio.sleep(30)
+    # Cambiado a 3 horas
+    await asyncio.sleep(3 * 60 * 60)  # 3 horas en segundos
     print("Cerrando el bot después de 3 horas.")
     
     await trigger_workflow()
@@ -38,7 +39,6 @@ async def trigger_workflow():
         print("Workflow triggered successfully!")
     else:
         print(f"Failed to trigger workflow: {response.status_code} - {response.text}")
-        
 
 if __name__ == "__main__":
     while True:
@@ -46,6 +46,5 @@ if __name__ == "__main__":
             bot.run(os.getenv('DISCORD_TOKEN'))
         except Exception as e:
             print(f"Error al ejecutar el bot: {e}. Reiniciando...")
-            
-            subprocess.Popen([sys.executable, 'bot.py'])
+            subprocess.Popen([sys.executable, 'bot.py'])  # Reinicia el bot
             break
