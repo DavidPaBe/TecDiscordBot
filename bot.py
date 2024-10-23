@@ -8,14 +8,12 @@ import requests
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix="!", intents=intents)  # El prefijo está aquí
-
-# Cargar los comandos desde el archivo commands.py
-bot.load_extension('commands')
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
     print(f'Conectado como {bot.user}!')
+    await bot.load_extension('commands')  # Cargar la extensión
     await shutdown_after_time()
 
 async def shutdown_after_time():
