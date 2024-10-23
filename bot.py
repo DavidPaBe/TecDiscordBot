@@ -18,7 +18,7 @@ async def on_ready():
 
 async def shutdown_after_time():
     # Cambiado a 3 horas
-    await asyncio.sleep(3 * 60 * 60)  # 3 horas en segundos
+    await asyncio.sleep(15)  # 3 horas en segundos
     print("Cerrando el bot después de 3 horas.")
     
     await trigger_workflow()
