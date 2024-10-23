@@ -27,7 +27,7 @@ async def shutdown_after_time():
 async def trigger_workflow():
     url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/discord-bot.yml/dispatches"
     headers = {
-        "Authorization": f"token {os.getenv('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')}",
+        "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",
         "Accept": "application/vnd.github.v3+json"
     }
     data = {
