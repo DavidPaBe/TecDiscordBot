@@ -28,13 +28,16 @@ async def shutdown_after_time():
 async def trigger_workflow():
     url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/124212019/dispatches"
     headers = {
-        "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",
+        "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",  # Asegúrate de que TOKEN_GITHUB esté configurado
         "Accept": "application/vnd.github.v3+json"
     }
     data = {
-        "ref": "main"
+        "ref": "main"  # Rama que deseas usar para activar el workflow
     }
+    
+    # Realiza la solicitud POST
     response = requests.post(url, json=data, headers=headers)
+    
     if response.status_code == 204:
         print("Workflow triggered successfully!")
     else:
