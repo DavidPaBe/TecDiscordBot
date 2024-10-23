@@ -35,7 +35,7 @@ async def trigger_workflow():
         "ref": "main"  # Rama que deseas usar para activar el workflow
     }
 
-    print(os.getenv('TOKEN_GITHUB'))
+    print(f"Token {os.getenv('TOKEN_GITHUB')}")
     # Realiza la solicitud POST
     response = requests.post(url, json=data, headers=headers)
     
