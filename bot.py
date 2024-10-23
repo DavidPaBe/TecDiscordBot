@@ -26,19 +26,19 @@ async def shutdown_after_time():
     await bot.close()
 
 async def trigger_workflow():
-    url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/discord-bot.yml/dispatches"
+    url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/jobs/JOB_ID/rerun"
     headers = {
         "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",
-        "Accept": "application/vnd.github.v3+json"
+        "Accept": "application/vnd.github.v3+json",
+        "X-GitHub-Api-Version": "2022-11-28"
     }
-    data = {
-        "ref": "main"
-    }
-    response = requests.post(url, json=data, headers=headers)
-    if response.status_code == 204:
-        print("Workflow triggered successfully!")
+    
+    response = requests.post(url, headers=headers)
+    
+    if response.status_code == 201:
+        print("Job rerun successfully!")
     else:
-        print(f"Failed to trigger workflow: {response.status_code} - {response.text}")
+        print(f"Failed to rerun job: {response.status_code}, {response.json()}")
 
 if __name__ == "__main__":
     while True:
