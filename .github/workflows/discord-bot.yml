@@ -28,4 +28,3 @@ jobs:
         python bot.py
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-  
