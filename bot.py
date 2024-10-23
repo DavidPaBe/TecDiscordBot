@@ -19,7 +19,7 @@ async def on_ready():
     await shutdown_after_time()
 
 async def shutdown_after_time():
-    await asyncio.sleep(5)  # 3 horas en segundos
+    await asyncio.sleep(10800)  # 3 horas en segundos
     print("Cerrando el bot después de 3 horas.")
     await trigger_workflow()
     await bot.close()
@@ -27,7 +27,7 @@ async def shutdown_after_time():
 async def trigger_workflow():
     url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/124212019/dispatches"
     headers = {
-        "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",
+        "Authorization": f"token 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",
         "Accept": "application/vnd.github.v3+json"
     }
     data = {
