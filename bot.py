@@ -26,7 +26,7 @@ async def shutdown_after_time():
     await bot.close()
 
 async def trigger_workflow():
-    url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/jobs/JOB_ID/rerun"
+    url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/jobs/11486135475/rerun"
     headers = {
         "Authorization": f"token {os.getenv('TOKEN_GITHUB')}",
         "Accept": "application/vnd.github.v3+json",
