@@ -5,7 +5,7 @@ from message_handler import process_message_without_prefix  # Importar la funci√
 from discord import Embed
 
 def setup(bot):
-    command_prefix = "!"
+    command_prefix = "!"  # Este prefijo se puede manejar en main.py si se necesita
 
     @bot.event
     async def on_message(message):
