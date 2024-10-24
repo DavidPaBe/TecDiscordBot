@@ -1,7 +1,25 @@
+# botSetup.py
+
 from discord.ext import commands
+from message_handler import process_message_without_prefix  # Importar la función desde message_handler.py
 from discord import Embed
 
 def setup(bot):
+    command_prefix = "!"  # Este prefijo se puede manejar en main.py si se necesita
+
+    @bot.event
+    async def on_message(message):
+        if message.author == bot.user:
+            return
+        
+        # Si el mensaje comienza con el prefijo, procesarlo como comando
+        if message.content.startswith(command_prefix):
+            message.content = message.content[len(command_prefix):]
+            await bot.process_commands(message)
+        else:
+            # Procesar mensajes sin prefijo
+            await process_message_without_prefix(message)
+
     @bot.command(name='menu')
     async def menu_command(ctx):
         embed = Embed(
@@ -16,7 +34,6 @@ def setup(bot):
         embed.add_field(name='📞 Contacto', value='Información de contacto', inline=False)
         embed.set_footer(text="Reacciona con el emoji correspondiente para obtener más información.")
 
-        # Enviar el mensaje embed y agregar las reacciones
         message = await ctx.send(embed=embed)
         await message.add_reaction('📚')
         await message.add_reaction('👨‍🏫')
@@ -33,10 +50,10 @@ def setup(bot):
         if reaction.emoji == '📚':
             await reaction.message.channel.send("Las carreras ofrecidas son: Ingeniería en Sistemas, Mecatrónica, etc.")
         elif reaction.emoji == '👨‍🏫':
-            await reaction.message.channel.send("Información sobre los maestros: Prof. Juan Pérez, etc.")
+            await reaction.message.channel.send("Información sobre los maestros: Prof. Marco Antonio, Prof. Maria Eugenia, etc.")
         elif reaction.emoji == '🏫':
             await reaction.message.channel.send("Las instalaciones incluyen: Biblioteca, Laboratorios, etc.")
         elif reaction.emoji == '🕒':
             await reaction.message.channel.send("Los horarios de atención son de 8:00 AM a 4:00 PM.")
         elif reaction.emoji == '📞':
-            await reaction.message.channel.send("Contacto: 123-456-7890 o email@instituto.com")
+            await reaction.message.channel.send("Contacto: +52 (664) 607 8400 o webmaster@tijuana.tecnm.mx")
