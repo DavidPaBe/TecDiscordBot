@@ -20,7 +20,7 @@ async def on_ready():
 
 async def shutdown_after_time():
     # Esperar 3 horas (10800 segundos)
-    await asyncio.sleep(10)
+    await asyncio.sleep(20)
     print("Cerrando el bot después de 3 horas.")
     
     # Realiza alguna acción antes de cerrar, si lo necesitas
