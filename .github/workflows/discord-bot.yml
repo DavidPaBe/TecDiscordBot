@@ -26,6 +26,6 @@ jobs:
 
     - name: Run the bot
       run: |
-        python bot.py
+        python main.py
       env:
         DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
