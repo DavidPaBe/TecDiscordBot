@@ -1,7 +1,8 @@
 import os
 import discord
-from discord.ext import commands, tasks
+from discord.ext import commands
 import asyncio
+import aiohttp  # Para hacer solicitudes HTTP de forma asíncrona
 import commands as bot_commands  # Importamos los comandos desde otro archivo
 
 # Inicializar el bot con los intents necesarios
@@ -20,30 +21,31 @@ async def on_ready():
 
 async def shutdown_after_time():
     # Esperar 3 horas (10800 segundos)
-    await asyncio.sleep(20)
+    await asyncio.sleep(10800)  # Espera de 3 horas
     print("Cerrando el bot después de 3 horas.")
     
     # Realiza alguna acción antes de cerrar, si lo necesitas
-    # await some_other_process()
-    trigger_workflow();
+    await trigger_workflow()
 
     # Cerrar el bot
     await bot.close()
 
 async def trigger_workflow():
-    url = f"https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/124212019/dispatches"
+    url = "https://api.github.com/repos/DavidPaBe/TecDiscordBot/actions/workflows/124212019/dispatches"
     headers = {
-        "Authorization": f"token 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",
+        "Authorization": "token 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",
         "Accept": "application/vnd.github.v3+json"
     }
     data = {
         "ref": "main"
     }
-    response = requests.post(url, json=data, headers=headers)
-    if response.status_code == 204:
-        print("Workflow triggered successfully!")
-    else:
-        print(f"Failed to trigger workflow: {response.status_code} - {response.text}")
+
+    async with aiohttp.ClientSession() as session:
+        async with session.post(url, json=data, headers=headers) as response:
+            if response.status == 204:
+                print("Workflow triggered successfully!")
+            else:
+                print(f"Failed to trigger workflow: {response.status} - {await response.text()}")
 
 bot_commands.setup(bot)
 
