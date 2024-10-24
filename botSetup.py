@@ -1,4 +1,4 @@
-# bot.py
+# botSetup.py
 
 from discord.ext import commands
 from message_handler import process_message_without_prefix  # Importar la función desde message_handler.py
