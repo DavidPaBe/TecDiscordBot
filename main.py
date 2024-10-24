@@ -3,7 +3,7 @@
 import os
 import discord
 from discord.ext import commands
-import bot_commands  # Importamos los comandos desde bot.py
+import bot  # Asegúrate de que el archivo bot.py está en la misma carpeta
 import shutdown  # Importamos la lógica de apagado desde shutdown.py
 
 # Inicializar los intents necesarios
@@ -21,7 +21,7 @@ async def on_ready():
     await shutdown.shutdown_after_time(bot)
 
 # Cargar los comandos desde bot.py
-bot_commands.setup(bot)
+bot.setup(bot)  # Cambiar a bot.setup ya que importaste todo bot
 
 # Iniciar el bot con el token de las variables de entorno
 bot.run(os.getenv('DISCORD_TOKEN'))
