@@ -21,7 +21,7 @@ async def trigger_workflow():
         "Accept": "application/vnd.github.v3+json"
     }
     data = {
-        "ref": "NewCommands"
+        "ref": "main"
     }
 
     async with aiohttp.ClientSession() as session:
