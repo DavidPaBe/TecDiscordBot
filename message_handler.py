@@ -18,7 +18,6 @@ async def process_message_without_prefix(message):
         await message.channel.send(f"Hola, {message.author.mention}!")
     elif content == "ping":
         await message.channel.send("Pong!")
-    elif message.content.
     else:
         # Respuesta genérica si no se encuentra palabra clave
         await message.channel.send(f"No entiendo tu mensaje, {message.author.mention}. ¿Puedes preguntar algo sobre carreras, maestros, instalaciones, horarios o contacto?")
