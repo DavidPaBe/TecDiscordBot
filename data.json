@@ -1,23 +1,56 @@
 {
     "donde": {
-        "synonyms": ["dónde", "ubicación", "lugar", "sitio", "emplazamiento", "espacio", "punto", "destino", "localización", "donde", "dondé", "dóndé", "dondee", "dndé"],
+        "synonyms": ["dónde", "ubicación", "lugar", "sitio", "emplazamiento", "espacio", "punto", "destino", "localización", "donde", "dondé", "dóndé", "dondee", "dndé", "dnd"],
         "responses": {
-            "carreras": "Las carreras están disponibles en el campus principal.",
+            "direccion": {
+                "response": "La dirección se encuentra en la entrada de la universidad en la fuente a la derecha.",
+                "synonyms": ["dirección, direción, dirrección, direcsión, directiva, directivo, liderazgo, mando, administración, gestión, supervisión, coordinación, jefatura, encargado, encargado de la escuela, dirección escolar, cabeza, líder, responsable, rectoria, rectoría, rector, rectoriaa, rectoríaa, recctoria, recctoría, administración central, despacho del rector, oficina del rector, rectorado, máxima autoridad, dirección general, líder de la escuela, rector principal, dirección ejecutiva"]
+            },
             "laboratorio": {
                 "response": {
-                    "electronica": "El laboratorio se encuentra al final de la universidad.",
-                    "nanotecnologia": {
-                        "response": {
-                            "seccionA": "Las carreras están disponibles en el campus principal.",
-                            "seccionB": {
-                                "response": "hola",
-                                "synonyms": ["comedor", "zona de comida", "restaurante"]
-                            }
-                        },
-                        "synonyms": ["comedor", "zona de comida", "restaurante"]
-                    }
-                },
-                "synonyms": ["lab"]
+                    "electromecanica": {
+                        "response": "El laboratorio de Electromecanica se encuentra al fondo de la Universidad, entre la biblioteca de la universidad y el departamento de electromecanica",
+                        "synonyms": ["electromecanica, electromecánica, electromecanicá, electro-mecánica, electro mecanica, electro-mecanica, electro mecanicá, electro-mecanicá, mecatrónica, mecanotronica, mecánica eléctrica, sistemas electromecánicos, ingeniería electromecánica, electrotecnia"]
+                    },
+					"bioquimica": {
+                        "response": "El laboratorio de bioquimica y microbiologia se encuentra al fondo de la universidad atras del laboratorio de Electromecanica y enfrente de los estacionamientos de estudiantes.",
+                        "synonyms": ["bioquimica, bioquímica, bio-química, bio química, biokimica, biokímica, biochem, bio-chem, química biológica, biología química, química orgánica, ciencia bioquímica, estudios biomoleculares, microbiologia, microbiología, micro-biología, micro biología, microbio logía, microviología, microbiologuia, estudio de microorganismos, ciencia microbiana, biología microbiana, microbiota, análisis microbiano"]
+                    },
+					"aeronautica": {
+						"response": "El laboratorio de Aeronáutica se encuentra en el edificio D, junto al taller de mecánica avanzada.",
+						"synonyms": ["aeronautica, aeronáutica, aero-náutica, aero nautica, aviación, ingeniería aeronáutica, ciencia aeronáutica, estudios aeroespaciales, tecnología de vuelo, aeronáutica aplicada, mecánica de vuelo"]
+					},
+					"quimica_inorganica": {
+						"response": "El laboratorio de Química Inorgánica está ubicado en el edificio C, segundo piso, cerca del área de investigación.",
+						"synonyms": ["quimica inorganica, química inorgánica, química no orgánica, química mineral, inorgánica, estudio de compuestos inorgánicos, laboratorio de química, química avanzada, ciencia inorgánica"]
+					},
+					"computo": {
+						"response": "El laboratorio de Cómputo se encuentra en el edificio B, planta baja, a un lado del salón de audiovisuales.",
+						"synonyms": ["computo, cómputo, laboratorio de cómputo, laboratorio de informática, centro de cómputo, sala de computación, informática, tecnología informática, sistemas de información, IT lab, ciencias computacionales"]
+					},
+					"ingenieria_industrial": {
+						"response": "El laboratorio de Ingeniería Industrial está en el edificio E, frente a la cafetería principal.",
+						"synonyms": ["ingenieria industrial, ingeniería industrial, ingeniería de procesos, procesos industriales, laboratorio de industrial, industrial, optimización de sistemas, logística, producción, sistemas industriales, gestión industrial"]
+					},
+					"alimento": {
+						"response": "El laboratorio de Alimentos se encuentra en el edificio F, junto al área de biotecnología.",
+						"synonyms": ["alimento, alimentos, ciencia de alimentos, tecnología de alimentos, laboratorio de alimentos, procesamiento de alimentos, nutrición aplicada, estudios alimentarios, seguridad alimentaria, tecnología alimentaria"]
+					},
+					"ciencias_de_la_tierra": {
+						"response": "El laboratorio de Ciencias de la Tierra está ubicado en el edificio G, a un lado del laboratorio de Física.",
+						"synonyms": ["ciencias de la tierra, geología, ciencias geológicas, ciencias ambientales, geociencias, estudio del suelo, ecosistemas, geografía física, medio ambiente, investigación terrestre, ciencias naturales, ingenieria civil, civil, ing civil, arquitectura, arq"]
+					},
+					"quimica": {
+						"response": "El laboratorio de Química está en el edificio C, planta baja, cerca del laboratorio de Química Inorgánica.",
+						"synonyms": ["quimica, química, química general, laboratorio de química, química orgánica, química inorgánica, ciencia química, estudios químicos, química avanzada, química aplicada"]
+					},
+					"electronica": {
+						"response": "El laboratorio de Electrónica está en el edificio A, primer piso, cerca del taller de robótica.",
+						"synonyms": ["electronica, electrónica, electrónica aplicada, laboratorio de electrónica, sistemas electrónicos, circuitos, robótica, mecatrónica, ingeniería electrónica, dispositivos electrónicos, tecnología electrónica"]
+					},
+					"_": "¿Cuál laboratorio te refieres? Podrías escribir por ejemplo: ¿Dónde se encuentra el laboratorio de ciencias de la tierra?"
+				},
+                "synonyms": ["laboratorio, lab, laboratorío, laboratorioo, labo, laboratorios, labo-ratorio, taller, centro de investigación, sala de prácticas, sala técnica, espacio experimental, unidad de experimentación, aula técnica, laboratorio técnico, laboratorio escolar, laboratorio universitario, área de laboratorio, laboratorio científico"]
             },
             "cafeteria": {
                 "response": {
