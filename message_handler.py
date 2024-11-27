@@ -1,3 +1,5 @@
+# message_handler.py
+
 import json
 
 # Cargar el archivo JSON
@@ -60,15 +62,8 @@ def process_user_response(message, category, new_synonym):
     else:
         return "No se ha agregado el sinónimo."
 
-# Ejemplo de uso
-message = "¿Dónde está la cafetería?"
-suggestion_response = suggest_and_add_synonym(message)
-print(suggestion_response)  # El bot sugiere agregar el sinónimo.
-
-# El siguiente paso sería capturar la respuesta del usuario y procesarla:
-user_response = "sí"  # Supongamos que el usuario responde "sí"
-category = "donde"
-new_synonym = "¿Dónde se encuentra el comedor?"
-
-response = process_user_response(user_response, category, new_synonym)
-print(response)  # Confirmación de que se agregó el sinónimo al JSON
+# Función principal de manejo de mensajes
+def process_message_without_prefix(message):
+    # Llamar a la función para sugerir preguntas y agregar sinónimos
+    suggestion_response = suggest_and_add_synonym(message)
+    return suggestion_response
