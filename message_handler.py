@@ -63,7 +63,7 @@ def process_user_response(message, category, new_synonym):
         return "No se ha agregado el sinónimo."
 
 # Función principal de manejo de mensajes
-def process_message_without_prefix(message):
+def process_message(message):
     # Llamar a la función para sugerir preguntas y agregar sinónimos
     suggestion_response = suggest_and_add_synonym(message)
     return suggestion_response
