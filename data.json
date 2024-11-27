@@ -1,0 +1,61 @@
+{
+    "categories": {
+        "donde": {
+            "synonyms": ["dónde", "ubicación", "lugar", "sitio"],
+            "responses": {
+                "carreras": "Las carreras están disponibles en el campus principal.",
+                "laboratorio de electrónica": "El laboratorio de Electrónica está ubicado en el edificio B, segundo piso.",
+                "biblioteca": "La biblioteca se encuentra en el edificio A, primer piso.",
+                "cafetería": {
+                    "response": "La cafetería está en el edificio C, planta baja.",
+                    "synonyms": ["comedor", "zona de comida", "restaurante"]
+                }
+            }
+        },
+        "cuando": {
+            "synonyms": ["cuándo", "hora", "momento", "tiempo"],
+            "responses": {
+                "carreras": "Puedes inscribirte durante los periodos de admisión en primavera y otoño.",
+                "laboratorio de electrónica": "El laboratorio de Electrónica está disponible de 8:00 AM a 8:00 PM.",
+                "biblioteca": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
+                "cafetería": "La cafetería está abierta de 7:00 AM a 6:00 PM."
+            }
+        },
+        "como": {
+            "synonyms": ["cómo", "manera", "método", "procedimiento"],
+            "responses": {
+                "carreras": "Consulta nuestra página web para el procedimiento de inscripción.",
+                "laboratorio de electrónica": "Para acceder al laboratorio, necesitas tu credencial de estudiante.",
+                "biblioteca": "Puedes acceder con tu credencial de estudiante.",
+                "cafetería": "Puedes pagar en la cafetería usando tu tarjeta de estudiante o en efectivo."
+            }
+        },
+        "que": {
+            "synonyms": ["qué", "información", "datos"],
+            "responses": {
+                "carreras": "Las carreras incluyen Ingeniería en Sistemas, Mecatrónica, y más.",
+                "laboratorio de electrónica": "El laboratorio de Electrónica cuenta con equipos avanzados para prácticas de circuitos y robótica.",
+                "biblioteca": "La biblioteca ofrece libros y recursos digitales para todas las carreras.",
+                "cafetería": "La cafetería ofrece menús saludables y snacks para estudiantes."
+            }
+        },
+        "quien": {
+            "synonyms": ["quién", "persona", "responsable"],
+            "responses": {
+                "carreras": "El departamento académico administra las carreras.",
+                "laboratorio de electrónica": "El responsable del laboratorio de Electrónica es el Profesor Juan Pérez.",
+                "biblioteca": "El personal de la biblioteca está a cargo de la Dra. Mariana González.",
+                "cafetería": "El encargado de la cafetería es el Sr. Luis Hernández."
+            }
+        },
+        "por que": {
+            "synonyms": ["por qué", "motivo", "razón"],
+            "responses": {
+                "carreras": "Porque ofrecen una excelente formación profesional.",
+                "laboratorio de electrónica": "Porque el laboratorio es fundamental para las prácticas de ingeniería electrónica.",
+                "biblioteca": "Porque la biblioteca apoya el aprendizaje y la investigación.",
+                "cafetería": "Porque la cafetería proporciona alimentos saludables para los estudiantes."
+            }
+        }
+    }
+}
