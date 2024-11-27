@@ -1,7 +1,7 @@
 # botSetup.py
 
 from discord.ext import commands
-from message_handler import process_message_without_prefix  # Importar la función desde message_handler.py
+from message_handler import process_message  # Importar la función desde message_handler.py
 from discord import Embed
 
 def setup(bot):
@@ -18,7 +18,7 @@ def setup(bot):
             await bot.process_commands(message)
         else:
             # Procesar mensajes sin prefijo
-            await process_message_without_prefix(message)
+            await process_message(message)
 
     @bot.command(name='menu')
     async def menu_command(ctx):
