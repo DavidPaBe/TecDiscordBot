@@ -15,7 +15,7 @@ def save_data(data):
 # Función para procesar el mensaje y sugerir preguntas
 def suggest_and_add_synonym(message):
     data = load_data()
-    content = message.lower()
+    content = message.content.lower()
 
     # Ejemplo de preguntas sugeridas
     suggested_questions = {
