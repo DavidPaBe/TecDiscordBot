@@ -10,7 +10,7 @@ import shutdown  # Importamos la lógica de apagado desde shutdown.py
 intents = discord.Intents.default()
 intents.message_content = True
 intents.reactions = True
-bot = commands.Bot(command_prefix=None, intents=intents)  # Sin prefijo por defecto aquí
+bot = commands.Bot(command_prefix="!", intents=intents)  # Sin prefijo por defecto aquí
 
 # Evento que se ejecuta cuando el bot está listo
 @bot.event
