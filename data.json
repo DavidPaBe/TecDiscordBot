@@ -76,7 +76,7 @@
                     },
                     "tecnologias_informacion": {
                         "responses": "Las aulas de Ingeniería en Tecnologías de la Información y Comunicaciones están en el edificio E, cerca de las salas de videoconferencia.",
-                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "información y comunicación", "comunicaciones digitales"]
                     },
                     "ciberseguridad": {
                         "responses": "Las aulas de Ingeniería en Ciberseguridad están en el edificio G, planta baja, a un lado del laboratorio de redes.",
@@ -317,7 +317,7 @@
                     },
                     "tecnologias_informacion": {
                         "responses": "Para Ing. en Tecnologias de la Información y Comunicación se tiene este plan reticular: https://www.tijuana.tecnm.mx/tics-plan-reticular/",
-                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "información y comunicación", "comunicaciones digitales"]
                     },
                     "ciberseguridad": {
                         "responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
@@ -361,7 +361,7 @@
 	},
 	"tecnologias_informacion": {
 		"responses": "Para Ing. en Tecnologias de la Información y Comunicación se tiene este plan reticular: https://www.tijuana.tecnm.mx/tics-plan-reticular/",
-		"synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+		"synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "información y comunicación", "comunicaciones digitales"]
 	},
 	"ciberseguridad": {
 		"responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
