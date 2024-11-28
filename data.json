@@ -3,71 +3,185 @@
         "synonyms": ["dónde", "ubicación", "lugar", "sitio", "emplazamiento", "espacio", "punto", "destino", "localización", "donde", "dondé", "dóndé", "dondee", "dndé", "dnd"],
         "responses": {
             "direccion": {
-                "response": "La dirección se encuentra en la entrada de la universidad en la fuente a la derecha.",
-                "synonyms": ["dirección, direción, dirrección, direcsión, directiva, directivo, liderazgo, mando, administración, gestión, supervisión, coordinación, jefatura, encargado, encargado de la escuela, dirección escolar, cabeza, líder, responsable, rectoria, rectoría, rector, rectoriaa, rectoríaa, recctoria, recctoría, administración central, despacho del rector, oficina del rector, rectorado, máxima autoridad, dirección general, líder de la escuela, rector principal, dirección ejecutiva"]
+                "responses": "La dirección se encuentra en la entrada de la universidad en la fuente a la derecha.",
+                "synonyms": ["dirección", "direción", "dirrección", "direcsión", "directiva", "directivo", "liderazgo", "mando", "administración", "gestión", "supervisión", "coordinación", "jefatura", "encargado", "encargado de la escuela", "dirección escolar", "cabeza", "líder", "responsable", "rectoria", "rectoría", "rector", "rectoriaa", "rectoríaa", "recctoria", "recctoría", "administración central", "despacho del rector", "oficina del rector", "rectorado", "máxima autoridad", "dirección general", "líder de la escuela", "rector principal", "dirección ejecutiva"]
             },
             "laboratorio": {
-                "response": {
+                "responses": {
                     "electromecanica": {
-                        "response": "El laboratorio de Electromecanica se encuentra al fondo de la Universidad, entre la biblioteca de la universidad y el departamento de electromecanica",
-                        "synonyms": ["electromecanica, electromecánica, electromecanicá, electro-mecánica, electro mecanica, electro-mecanica, electro mecanicá, electro-mecanicá, mecatrónica, mecanotronica, mecánica eléctrica, sistemas electromecánicos, ingeniería electromecánica, electrotecnia"]
+                        "responses": "El laboratorio de Electromecanica se encuentra al fondo de la Universidad, entre la biblioteca de la universidad y el departamento de electromecanica",
+                        "synonyms": ["electromecanica", "electromecánica", "electromecanicá", "electro-mecánica", "electro mecanica", "electro-mecanica", "electro mecanicá", "electro-mecanicá", "mecatrónica", "mecanotronica", "mecánica eléctrica", "sistemas electromecánicos", "ingeniería electromecánica", "electrotecnia"]
                     },
 					"bioquimica": {
-                        "response": "El laboratorio de bioquimica y microbiologia se encuentra al fondo de la universidad atras del laboratorio de Electromecanica y enfrente de los estacionamientos de estudiantes.",
-                        "synonyms": ["bioquimica, bioquímica, bio-química, bio química, biokimica, biokímica, biochem, bio-chem, química biológica, biología química, química orgánica, ciencia bioquímica, estudios biomoleculares, microbiologia, microbiología, micro-biología, micro biología, microbio logía, microviología, microbiologuia, estudio de microorganismos, ciencia microbiana, biología microbiana, microbiota, análisis microbiano"]
-                    },
+	                        "responses": "El laboratorio de bioquimica y microbiologia se encuentra al fondo de la universidad atras del laboratorio de Electromecanica y enfrente de los estacionamientos de estudiantes.",
+	                        "synonyms": ["bioquimica", "bioquímica", "bio-química", "bio química", "biokimica", "biokímica", "biochem", "bio-chem", "química biológica", "biología química", "química orgánica", "ciencia bioquímica", "estudios biomoleculares", "microbiologia", "microbiología", "micro-biología", "micro biología", "microbio logía", "microviología", "microbiologuia", "estudio de microorganismos", "ciencia microbiana", "biología microbiana", "microbiota", "análisis microbiano"]
+	                    },
 					"aeronautica": {
-						"response": "El laboratorio de Aeronáutica se encuentra en el edificio D, junto al taller de mecánica avanzada.",
-						"synonyms": ["aeronautica, aeronáutica, aero-náutica, aero nautica, aviación, ingeniería aeronáutica, ciencia aeronáutica, estudios aeroespaciales, tecnología de vuelo, aeronáutica aplicada, mecánica de vuelo"]
+						"responses": "El laboratorio de Aeronáutica se encuentra en el edificio D, junto al taller de mecánica avanzada.",
+						"synonyms": ["aeronautica", "aeronáutica", "aero-náutica", "aero nautica", "aviación", "ingeniería aeronáutica", "ciencia aeronáutica", "estudios aeroespaciales", "tecnología de vuelo", "aeronáutica aplicada", "mecánica de vuelo"]
 					},
 					"quimica_inorganica": {
-						"response": "El laboratorio de Química Inorgánica está ubicado en el edificio C, segundo piso, cerca del área de investigación.",
-						"synonyms": ["quimica inorganica, química inorgánica, química no orgánica, química mineral, inorgánica, estudio de compuestos inorgánicos, laboratorio de química, química avanzada, ciencia inorgánica"]
+						"responses": "El laboratorio de Química Inorgánica está ubicado en el edificio C, segundo piso, cerca del área de investigación.",
+						"synonyms": ["quimica inorganica", "química inorgánica", "química no orgánica", "química mineral", "inorgánica", "estudio de compuestos inorgánicos", "laboratorio de química", "química avanzada", "ciencia inorgánica"]
 					},
 					"computo": {
-						"response": "El laboratorio de Cómputo se encuentra en el edificio B, planta baja, a un lado del salón de audiovisuales.",
-						"synonyms": ["computo, cómputo, laboratorio de cómputo, laboratorio de informática, centro de cómputo, sala de computación, informática, tecnología informática, sistemas de información, IT lab, ciencias computacionales"]
+						"responses": "El laboratorio de Cómputo se encuentra en el edificio B, planta baja, a un lado del salón de audiovisuales.",
+						"synonyms": ["computo", "cómputo", "laboratorio de cómputo", "laboratorio de informática", "centro de cómputo", "sala de computación", "informática", "tecnología informática", "sistemas de información", "IT lab", "ciencias computacionales"]
 					},
 					"ingenieria_industrial": {
-						"response": "El laboratorio de Ingeniería Industrial está en el edificio E, frente a la cafetería principal.",
-						"synonyms": ["ingenieria industrial, ingeniería industrial, ingeniería de procesos, procesos industriales, laboratorio de industrial, industrial, optimización de sistemas, logística, producción, sistemas industriales, gestión industrial"]
+						"responses": "El laboratorio de Ingeniería Industrial está en el edificio E, frente a la cafetería principal.",
+						"synonyms": ["ingenieria industrial", "ingeniería industrial", "ingeniería de procesos", "procesos industriales", "laboratorio de industrial", "industrial", "optimización de sistemas", "logística", "producción", "sistemas industriales", "gestión industrial"]
 					},
 					"alimento": {
-						"response": "El laboratorio de Alimentos se encuentra en el edificio F, junto al área de biotecnología.",
-						"synonyms": ["alimento, alimentos, ciencia de alimentos, tecnología de alimentos, laboratorio de alimentos, procesamiento de alimentos, nutrición aplicada, estudios alimentarios, seguridad alimentaria, tecnología alimentaria"]
+						"responses": "El laboratorio de Alimentos se encuentra en el edificio F, junto al área de biotecnología.",
+						"synonyms": ["alimento", "alimentos", "ciencia de alimentos", "tecnología de alimentos", "laboratorio de alimentos", "procesamiento de alimentos", "nutrición aplicada", "estudios alimentarios", "seguridad alimentaria", "tecnología alimentaria"]
 					},
 					"ciencias_de_la_tierra": {
-						"response": "El laboratorio de Ciencias de la Tierra está ubicado en el edificio G, a un lado del laboratorio de Física.",
-						"synonyms": ["ciencias de la tierra, geología, ciencias geológicas, ciencias ambientales, geociencias, estudio del suelo, ecosistemas, geografía física, medio ambiente, investigación terrestre, ciencias naturales, ingenieria civil, civil, ing civil, arquitectura, arq"]
+						"responses": "El laboratorio de Ciencias de la Tierra está ubicado en el edificio G, a un lado del laboratorio de Física.",
+						"synonyms": ["ciencias de la tierra", "geología", "ciencias geológicas", "ciencias ambientales", "geociencias", "estudio del suelo", "ecosistemas", "geografía física", "medio ambiente", "investigación terrestre", "ciencias naturales", "ingenieria civil", "civil", "ing civil", "arquitectura", "arq"]
 					},
 					"quimica": {
-						"response": "El laboratorio de Química está en el edificio C, planta baja, cerca del laboratorio de Química Inorgánica.",
-						"synonyms": ["quimica, química, química general, laboratorio de química, química orgánica, química inorgánica, ciencia química, estudios químicos, química avanzada, química aplicada"]
+						"responses": "El laboratorio de Química está en el edificio C, planta baja, cerca del laboratorio de Química Inorgánica.",
+						"synonyms": ["quimica", "química", "química general", "laboratorio de química", "química orgánica", "química inorgánica", "ciencia química", "estudios químicos", "química avanzada", "química aplicada"]
 					},
 					"electronica": {
-						"response": "El laboratorio de Electrónica está en el edificio A, primer piso, cerca del taller de robótica.",
-						"synonyms": ["electronica, electrónica, electrónica aplicada, laboratorio de electrónica, sistemas electrónicos, circuitos, robótica, mecatrónica, ingeniería electrónica, dispositivos electrónicos, tecnología electrónica"]
+						"responses": "El laboratorio de Electrónica está en el edificio A, primer piso, cerca del taller de robótica.",
+						"synonyms": ["electronica", "electrónica", "electrónica aplicada", "laboratorio de electrónica", "sistemas electrónicos", "circuitos", "robótica", "mecatrónica", "ingeniería electrónica", "dispositivos electrónicos", "tecnología electrónica"]
 					},
 					"_": "¿Cuál laboratorio te refieres? Podrías escribir por ejemplo: ¿Dónde se encuentra el laboratorio de ciencias de la tierra?"
 				},
-                "synonyms": ["laboratorio, lab, laboratorío, laboratorioo, labo, laboratorios, labo-ratorio, taller, centro de investigación, sala de prácticas, sala técnica, espacio experimental, unidad de experimentación, aula técnica, laboratorio técnico, laboratorio escolar, laboratorio universitario, área de laboratorio, laboratorio científico"]
+                "synonyms": ["laboratorio", "lab", "laboratorío", "laboratorioo", "labo", "laboratorios", "labo-ratorio", "taller", "centro de investigación", "sala de prácticas", "sala técnica", "espacio experimental", "unidad de experimentación", "aula técnica", "laboratorio técnico", "laboratorio escolar", "laboratorio universitario", "área de laboratorio", "laboratorio científico"]
+            },
+            "aulas": {
+                "responses": {
+                    "aeronautica": {
+                        "responses": "Las aulas de Ingeniería Aeronáutica están en el edificio D, primer piso, cerca del laboratorio de Mecánica Avanzada.",
+                        "synonyms": ["aeronautica", "aeronáutica", "ingeniería aeronáutica", "ing aeronáutica", "ing. aeronáutica", "aviación", "ciencias aeronáuticas", "aula de aeronáutica", "tecnología aeroespacial", "ingeniería aeroespacial", "aulas de aviación"]
+                    },
+                    "bioquimica": {
+                        "responses": "Las aulas de Ingeniería Bioquímica están ubicadas en el edificio F, junto al laboratorio de alimentos.",
+                        "synonyms": ["bioquimica", "bioquímica", "ing bioquímica", "ing. bioquímica", "ingeniería bioquímica", "química aplicada", "aula de bioquímica", "ciencia de los alimentos", "biología química", "tecnología bioquímica", "bioingeniería"]
+                    },
+                    "electromecanica": {
+                        "responses": "Las aulas de Ingeniería Electromecánica están en el edificio B, a un lado del laboratorio de Electrónica.",
+                        "synonyms": ["electromecanica", "electromecánica", "ing electromecánica", "ing. electromecánica", "ingeniería electromecánica", "aula de electromecánica", "sistemas electromecánicos", "mecánica eléctrica", "tecnología electromecánica", "electrotecnia"]
+                    },
+                    "informatica": {
+                        "responses": "Las aulas de Ingeniería Informática están ubicadas en el edificio C, planta baja, cerca del laboratorio de Cómputo.",
+                        "synonyms": ["informatica", "informática", "ing informática", "ing. informática", "ingeniería informática", "ciencia informática", "aula de informática", "tecnología de la información", "computación aplicada", "IT", "sistemas de información"]
+                    },
+                    "sistemas_computacionales": {
+                        "responses": "Las aulas de Ingeniería en Sistemas Computacionales están en el edificio A, segundo piso, cerca del auditorio.",
+                        "synonyms": ["sistemas computacionales", "ing sistemas ", "ing sistemas computacionales", "ing. sistemas computacionales", "ingeniería en sistemas computacionales", "sistemas", "tecnología de sistemas", "aula de sistemas computacionales", "desarrollo de software", "computación avanzada", "programación", "software engineering, sistemas"]
+                    },
+                    "tecnologias_informacion": {
+                        "responses": "Las aulas de Ingeniería en Tecnologías de la Información y Comunicaciones están en el edificio E, cerca de las salas de videoconferencia.",
+                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+                    },
+                    "ciberseguridad": {
+                        "responses": "Las aulas de Ingeniería en Ciberseguridad están en el edificio G, planta baja, a un lado del laboratorio de redes.",
+                        "synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
+                    },
+                    "inteligencia_artificial": {
+                        "responses": "Las aulas de Ingeniería en Inteligencia Artificial están en el edificio F, segundo piso, cerca del laboratorio de Innovación.",
+                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
+                    },
+                    "industrial": {
+                        "responses": "Las aulas de Ingeniería Industrial están ubicadas en el edificio H, frente a la cafetería principal.",
+                        "synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+                    },
+                    "mecanica": {
+                        "responses": "Las aulas de Ingeniería Mecánica están en el edificio I, cerca del taller de manufactura.",
+                        "synonyms": ["mecanica", "mecánica", "ing mecánica", "ing. mecánica", "ingeniería mecánica", "aula de mecánica", "tecnología mecánica", "mecánica avanzada", "mecánica aplicada", "diseño mecánico", "sistemas mecánicos"]
+                    },
+                    "_": "¿A qué aula de ingeniería te refieres? Por favor, especifica la carrera como: ¿Dónde están las aulas de Ingeniería Bioquímica?"
+                },
+                "synonyms": ["aula", "aulas", "clase", "salón", "salones", "classroom", "aula técnica", "espacio académico", "salón de clases", "aula de ingeniería", "aulas de ingeniería", "salón universitario", "aual", "aulás", "laboratorios de ingeniería"]
+            },
+            "teatro": {
+                "responses": {
+                    "_": "Está al final de la Universidad, es un edificio grande, cerca de la biblioteca y los salones 300."
+                    },
+                "synonyms": ["teatro", "teartro", "teatrro", "teatroo", "tetaro", "tetatro", "theater", "teatro", "teathro", "teatrrro", "escenario", "auditorio", "sala de teatro", "teatrito", "tetro", "treatro", "theatro", "teater", "teattrro"]
             },
             "cafeteria": {
-                "response": {
-                    "_": "La cafetería está en el edificio C, planta baja."
+                "responses": {
+                    "_": "La cafetería está al fondo mano izquierda de la entrada del Instituto Tecnológico de Tijuana."
                     },
                 "synonyms": ["comedor", "zona de comida", "restaurante"]
             },
-            "biblioteca": "La biblioteca se encuentra en el edificio A, primer piso."
-        }
-    },
+            "biblioteca": "La biblioteca se encuentra caminando al final del Instituto, cerca del estacionamiento y el teatro Calafornix.",
+            "baños":{
+                "responses": {
+                    "otay": "En Otay hay los baños se encuentran mayormente en los edificios 1000, 1100, 1200, 1300, 1400 y 1500.",
+                    "tomas_aquino": {
+                        "responses": "En Tomas Aquino hay baños en los edificios 100, 300, 900, laboratorios de computo, en el Teatro, recursos financieros.",
+                        "synonyms": ["tomas", "aquino"]
+                    },
+                    "_": "En Tomas Aquino hay baños en los edificios 100, 300, 900, laboratorios de computo, en el Teatro. En Otay hay los baños se encuentran mayormente en los edificios 1000, 1100, 1200, 1300, 1400 y 1500."
+                    },
+                    "synonyms": ["baño", "bano", "banio", "banos", "banios", "baños", "retrete", "wc", "sanitario", "toilet", "excusado", "mingitorio", "baňo", "banoo", "bańo", "banho", "banioo", "toillet", "toyled", "toillet", "sanitairo", "retrethe", "mingytorio", "mingytoryo"]
+                },
+            "edificio_administrativo": {
+                "responses": {
+                    "_": "En la entrada del Tec enfrente donde está la fuente a mano derecha se encuentra el edificio administrativo."
+                    },
+                "synonyms": ["edificio administrativo", "oficinas administrativas", "administración", "edificio de administración", "edificio de oficinas", "oficinas centrales", "edificio principal", "área administrativa", "oficina administrativa", "centro administrativo", "admin", "edificio admin", "administrativo", "oficinas de gestión", "edificio de gestión", "edificio de personal", "área de oficinas", "bloque administrativo", "sector administrativo", "adminstrativo",  "administracion",  "adminstracion"]
+
+                },
+            "edificio_academico": {
+                "responses": {
+                    "_": "En la entrada del Tec enfrete donde está la fuente a mano izquierda se encuentra el edificio academico."
+                    },
+                "synonyms": ["edificio academico"]
+                },
+            "audiovisiual": {
+                "responses": {
+                    "_": "Se encuentra cerca de la plaza civica detrás de los edificios 300."
+                    },
+                "synonyms": ["audiovisiual"]
+                },
+            "recursos_financieros": {
+                "responses": {
+                    "_": "Se encuentra en el edificio administrativo en el segundo piso."
+                    },
+                "synonyms": ["recursos financieros"]
+                },
+            "recursos_humanos": {
+                "responses": {
+                    "_": "Se encuentra en el edificio administrativo en el primer piso."
+                    },
+                "synonyms": ["recursos humanos"]
+                },
+            "pagar": {
+                "responses": {
+                    "reinscripción": {
+                        "responses": {
+                            "_": "Se puede pagar en cualquier banco de BBVA, pero también puedes pagarlo en la aplicación de BBVA."
+                            },
+                        "synonyms": ["inscripción"]
+                        },
+                    "ingles": {
+                        "responses": {
+                            "_": "Se debe pagar en recursos financieros, y después entregar el recibo con el coordinador de idiomas."
+                            },
+                        "synonyms": ["idiomas"]
+                        },
+                    "_": "Podrías especificar que buscas pagar. Por ejemplo: ¿Dónde pago mi reinscripción?"
+                    },
+                "synonyms": ["pago"]
+                }
+            },
+            "_" : "Podrías añadir alguna localización?"
+        },
     "cuando": {
-        "synonyms": ["cuándo", "hora", "momento", "tiempo", "instante", "fecha", "ocasión", "periodo", "temporada", "cuando", "cuándo", "cuandó", "cuan do", "cuandó"],
+        "synonyms": ["cuándo", "hora", "momento", "tiempo", "instante", "fecha", "ocasión", "periodo", "temporada", "cuando", "cuándo", "cuandó", "cuan do", "cuandó", "dura", "cuanto"],
         "responses": {
-            "carreras": "Puedes inscribirte durante los periodos de admisión en primavera y otoño.",
-            "laboratorio de electrónica": "El laboratorio de Electrónica está disponible de 8:00 AM a 8:00 PM.",
-            "biblioteca": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
-            "cafetería": "La cafetería está abierta de 7:00 AM a 6:00 PM.",
+            "reinscripción": "Puedes inscribirte durante los periodos de admisión en primavera y otoño.",
+            "ingles": "El laboratorio de Electrónica está disponible de 8:00 AM a 8:00 PM.",
+            "evento": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
+            "evaluacion_docente": "La cafetería está abierta de 7:00 AM a 6:00 PM.",
+            "semestre": "",
             "_" : "Le sugerimos algo como carreras, laboratorio, biblioteca, etc"
         }
     },
@@ -81,12 +195,67 @@
         }
     },
     "como": {
-        "synonyms": ["cómo", "manera", "método", "procedimiento", "forma", "estilo", "modo", "forma de hacer", "vía", "ruta", "técnica", "como", "comó", "cóme", "comó", "cómo"],
+        "synonyms": ["cómo", "manera", "método", "procedimiento", "forma", "estilo", "modo", "forma de hacer", "vía", "ruta", "técnica", "como", "comó", "cóme", "comó", "cómo", "proceso"],
         "responses": {
-            "carreras": "Consulta nuestra página web para el procedimiento de inscripción.",
-            "laboratorio de electrónica": "Para acceder al laboratorio, necesitas tu credencial de estudiante.",
-            "biblioteca": "Puedes acceder con tu credencial de estudiante.",
-            "cafetería": "Puedes pagar en la cafetería usando tu tarjeta de estudiante o en efectivo."
+            "pagar": {
+                "responses": {
+                    "reinscripción": {
+                        "responses": {
+                            "_": "La reinscripción se debe pagar en el banco de BBVA, o en línea"
+                            },
+                        "synonyms": ["inscripción"]
+                        },
+                    "ingles": {
+                        "responses": {
+                            "_": "La reinscripción se debe pagar en recursos financieros y se debe entregar el comprobante de pago al coordinador de idiomas."
+                            },
+                        "synonyms": ["idiomas"]
+                        },
+                    "_": "Podrías especificar que buscas pagar. Por ejemplo: ¿Dónde pago mi reinscripción?"
+                    },
+                "synonyms": ["pago"]
+            },
+            "servicio":{
+                "responses": "El servicio social se hace una convocatoria, donde será notificada en la página de Facebook para iniciar.",
+                "synonyms": ["servicio social"]
+            },
+            "creditos":{
+                "responses": {
+                    "deportivo": {
+                        "responses": "El crédito deportivo o cultural, se hace un registro, al inicio de cada semestre, para poder realizarlo.",
+                        "synonyms": ["cultural"]
+                    },
+                    "tutoria": {
+                        "responses": "El crédito de tutorias, se te carga como materia al iniciar la carrera y al terminar te lo entregan, pero si repruebas, hay veces que se encuentran convocatorias para inscribirte.",
+                        "synonyms": ["tutorias"]
+                    },
+                    "complementario": {
+                        "responses": "Suelen ser en eventos universitarios, se suelen publicar en las páginas oficiales del Instituto Tecnologico de Tijuana.",
+                        "synonyms": ["complementarios"]
+                    },
+                    "_": "Para entregar tus créditos complementarios tienes que ir a dejar los documentos en coordinación, pero en Sistemas tienes que llenar un formulario."
+                },
+                "synonyms": ["credito"]
+            },
+            "materias":{
+                "responses": "Para reinscribir tus materias se tiene que hacer en la página de: tijuana.ambar.tecnm.mx",
+                "synonyms": ["materia"]
+            },
+            "residencia": {
+                "responses": "Para la residencia, tienes que asistir a la junta, donde se te darán las instrucciones, y vas a llenar un formulario.",
+                "synonyms": ["materia"]
+            }
+        }
+    },
+    "cuanto": {
+        "synonyms": ["cuanto"],
+        "responses": {
+            "reinscripción": "La reinscripción tiene un costo de 2800 pesos.",
+            "ingles": "El examen de inglés tiene un costo de 500 pesos.",
+            "evento": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
+            "evaluacion_docente": "La cafetería está abierta de 7:00 AM a 6:00 PM.",
+            "semestre": "",
+            "_" : "Le sugerimos algo como carreras, laboratorio, biblioteca, etc"
         }
     },
     "que": {
