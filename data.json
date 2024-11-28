@@ -291,7 +291,7 @@
         }
     },
     "que": {
-        "synonyms": ["qué", "información", "datos", "cosa", "tema", "detalle", "asunto", "elemento", "contenido", "referencia", "que", "qué", "k", "qu", "ke", "queé", "dar", "solicito", "proporciona"],
+        "synonyms": ["qué", "información", "datos", "cosa", "tema", "detalle", "asunto", "elemento", "contenido", "referencia", "que", "qué", "k", "qu", "ke", "queé", "dar", "solicito", "proporciona", "cual"],
         "responses": {
             "carreras": {
                 "responses": {
