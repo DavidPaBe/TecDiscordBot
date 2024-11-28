@@ -82,13 +82,13 @@
                         "responses": "Las aulas de Ingeniería en Ciberseguridad están en el edificio G, planta baja, a un lado del laboratorio de redes.",
                         "synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
                     },
-                    "inteligencia_artificial": {
-                        "responses": "Las aulas de Ingeniería en Inteligencia Artificial están en el edificio F, segundo piso, cerca del laboratorio de Innovación.",
-                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
-                    },
                     "industrial": {
                         "responses": "Las aulas de Ingeniería Industrial están ubicadas en el edificio H, frente a la cafetería principal.",
                         "synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+                    },
+                    "inteligencia_artificial": {
+                        "responses": "Las aulas de Ingeniería en Inteligencia Artificial están en el edificio F, segundo piso, cerca del laboratorio de Innovación.",
+                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
                     },
                     "mecanica": {
                         "responses": "Las aulas de Ingeniería Mecánica están en el edificio I, cerca del taller de manufactura.",
@@ -323,13 +323,13 @@
                         "responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
                         "synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
                     },
-                    "inteligencia_artificial": {
-                        "responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
-                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
-                    },
                     "industrial": {
                         "responses": "Para Ing. Industrial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2017/12/Reticula_Ingenieria_Industrial.pdf",
                         "synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+                    },
+		    "inteligencia_artificial": {
+                        "responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
+                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
                     },
                     "mecanica": {
                         "responses": "Para Ing. Mecánica se tiene este plan reticular: https://www.tijuana.tecnm.mx/im-plan-reticular/",
@@ -367,13 +367,13 @@
 		"responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
 		"synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
 	},
-	"inteligencia_artificial": {
-		"responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
-		"synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
-	},
 	"industrial": {
 		"responses": "Para Ing. Industrial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2017/12/Reticula_Ingenieria_Industrial.pdf",
 		"synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+	},
+	"inteligencia_artificial": {
+		"responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
+		"synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
 	},
 	"mecanica": {
 		"responses": "Para Ing. Mecánica se tiene este plan reticular: https://www.tijuana.tecnm.mx/im-plan-reticular/",
