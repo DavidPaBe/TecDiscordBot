@@ -264,7 +264,8 @@
                 "responses": "Para la residencia, tienes que asistir a la junta, donde se te darán las instrucciones, y vas a llenar un formulario.",
                 "synonyms": ["residencia profesional", "prácticas profesionales", "experiencia profesional", "internado profesional", "servicio profesional", "pasantía", "prácticas laborales", "residensia profesional", "residencia profecional", "residencia profesioanal", "residecia profesional"]
             }
-        }
+        },
+	    "_": "Le sugerimos por ejemplo, cómo hacer la residencia?"
     },
     "cuanto": {
         "synonyms": ["cuanto", "cuánto", "cuántos", "qué cantidad", "cuánta cantidad", "cuál es el valor", "cuál es el precio", "qué tan", "qué tanto", "qué número", "cuál es el monto", "a cuánto", "qué volumen", "qué medida", "qué cantidad", "cuánto es", "cuáles", "qué cantidad de", "qué proporción", "qué volumen de", "cuánto valen", "qué monto", "qué costo", "cuál el valor", "cuál es el número", "qué tanto es"],
@@ -277,7 +278,7 @@
 				"responses": "El examen de inglés tiene un costo de 500 pesos.",
 				"synonyms": ["inglés", "idiomas", "lengua inglesa", "idioma inglés", "curso de inglés", "enseñanza de idiomas", "idioma extranjero", "lengua extranjera", "clases de inglés", "ingless", "examen de ingles", "examen ingles"]
 			},
-            "_" : "Le sugerimos cuanto por ejemplo la reinscripción"
+            "_" : "Le sugerimos si quiere saber por emeplo, cuanto la reinscripción?"
         }
     },
     "quien": {
