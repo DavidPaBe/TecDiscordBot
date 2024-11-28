@@ -133,25 +133,25 @@
                 "responses": {
                     "_": "En la entrada del Tec enfrete donde está la fuente a mano izquierda se encuentra el edificio academico."
                     },
-                "synonyms": ["edificio academico"]
+                "synonyms": ["edificio academico", "centro educativo", "instalación académica", "estructura académica", "campus universitario", "bloque académico", "pabellón educativo", "edifisio academico", "edificio acedemico", "edificio academiko", "edifico academico", "edificio acadèmico", "academico"]
                 },
-            "audiovisiual": {
+            "audiovisual": {
                 "responses": {
                     "_": "Se encuentra cerca de la plaza civica detrás de los edificios 300."
                     },
-                "synonyms": ["audiovisiual"]
+                "synonyms": ["audiovisiual","audiovisual", "multimedia", "producción audiovisual", "contenido multimedia", "equipamiento audiovisual", "material audiovisual", "audiovizual", "audiovisual", "audio visual", "audiobisiual", "audiobisial", "audivisual"]
                 },
             "recursos_financieros": {
                 "responses": {
                     "_": "Se encuentra en el edificio administrativo en el segundo piso."
                     },
-                "synonyms": ["recursos financieros"]
+                "synonyms": ["recursos financieros", "fondos económicos", "capital financiero", "presupuesto", "fondos monetarios", "recursos económicos", "finanzas disponibles", "recursos finacieros", "recursos finacieron", "recursos finanseros", "recursos finacieros", "recusos financieros"]
                 },
             "recursos_humanos": {
                 "responses": {
                     "_": "Se encuentra en el edificio administrativo en el primer piso."
                     },
-                "synonyms": ["recursos humanos"]
+                "synonyms": ["recursos humanos", "gestión del talento", "departamento de personal", "gestión de recursos humanos", "capital humano", "administración de personal", "recursoshumanos", "recursos umanos", "resursos humanos", "recursos humanos", "recursos humnos", "recursosh umanos"]
                 },
             "pagar": {
                 "responses": {
@@ -159,30 +159,49 @@
                         "responses": {
                             "_": "Se puede pagar en cualquier banco de BBVA, pero también puedes pagarlo en la aplicación de BBVA."
                             },
-                        "synonyms": ["inscripción"]
+                        "synonyms": ["inscripción", "registro", "matrícula", "alta", "aplicación", "proceso de registro", "formulario de inscripción", "incripcion", "inscripsion", "inscricion", "inscripcon", "inscripion"]
                         },
                     "ingles": {
                         "responses": {
                             "_": "Se debe pagar en recursos financieros, y después entregar el recibo con el coordinador de idiomas."
                             },
-                        "synonyms": ["idiomas"]
+                        "synonyms": ["inglés", "idiomas", "lengua inglesa", "idioma inglés", "curso de inglés", "enseñanza de idiomas", "idioma extranjero", "lengua extranjera", "clases de inglés", "ingless", "examen de ingles", "examen ingles"]
                         },
                     "_": "Podrías especificar que buscas pagar. Por ejemplo: ¿Dónde pago mi reinscripción?"
                     },
-                "synonyms": ["pago"]
+                "synonyms": ["pagar", "abonar", "cancelar", "liquidar", "desembolsar", "efectuar el pago", "realizar el pago", "pago", "pagar", "pagarar", "pajar", "paggar", "paguar"]
                 }
             },
             "_" : "Podrías añadir alguna localización?"
         },
     "cuando": {
-        "synonyms": ["cuándo", "hora", "momento", "tiempo", "instante", "fecha", "ocasión", "periodo", "temporada", "cuando", "cuándo", "cuandó", "cuan do", "cuandó", "dura", "cuanto"],
+        "synonyms": ["cuándo", "hora", "momento", "tiempo", "instante", "fecha", "ocasión", "periodo", "temporada", "cuando", "cuándo", "cuandó", "cuan do", "cuandó", "dura"],
         "responses": {
-            "reinscripción": "Puedes inscribirte durante los periodos de admisión en primavera y otoño.",
-            "ingles": "El laboratorio de Electrónica está disponible de 8:00 AM a 8:00 PM.",
-            "evento": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
-            "evaluacion_docente": "La cafetería está abierta de 7:00 AM a 6:00 PM.",
-            "semestre": "",
-            "_" : "Le sugerimos algo como carreras, laboratorio, biblioteca, etc"
+            "reinscripción": {
+				"responses": {
+					"_": "Puedes inscribirte durante los periodos de admisión en primavera y otoño."
+					},
+				"synonyms": ["inscripción", "registro", "matrícula", "alta", "aplicación", "proceso de registro", "formulario de inscripción", "incripcion", "inscripsion", "inscricion", "inscripcon", "inscripion"]
+				},
+			"ingles": {
+				"responses": {
+					"_": "Se puede realizar el examen de ingles de Martes a Jueves, las horas son a las 10:00 AM y a las 4:00 PM."
+					},
+				"synonyms": ["inglés", "idiomas", "lengua inglesa", "idioma inglés", "curso de inglés", "enseñanza de idiomas", "idioma extranjero", "lengua extranjera", "clases de inglés", "ingless", "examen de ingles", "examen ingles"]
+				},
+            "hackaton": {
+				"responses": "El hackaton va a ser el 8 de Noviembre en el Instituto Tecnologico de Tijuana.",
+				"synonyms": ["hackathon", "maratón de programación", "competencia de programación", "evento de codificación", "competencia tecnológica", "desafío tecnológico", "hackaton", "hackaton", "hakkaton", "hackton", "hackahton"]
+			},
+            "evaluacion_docente": {
+				"responses" : "La cafetería está abierta de 7:00 AM a 6:00 PM.",
+				"synonyms" : ["evaluación docente", "valoración del docente", "evaluación del profesor", "valoración del profesor", "feedback docente", "valoración de enseñanza", "evaluacion docente", "evalucion docente", "evaluacion de docente", "evaluaion docente", "evalucion docente"]
+			},
+            "semestre": {
+				"responses": "El primer periodo suele ser de Agosto a Diciembre y el segundo de Febrero a Junio.",
+				"synonyms": ["semestre", "periodo académico", "ciclo escolar", "término académico", "trimestre", "cuatrimestre", "semestre escolar", "semstre", "semetre", "semesre", "semesstre"]
+			},
+			"_" : "Le sugerimos que busque por ejemplo, ¿A que hora es el examen de ingles?"
         }
     },
     "por que": {
@@ -203,77 +222,164 @@
                         "responses": {
                             "_": "La reinscripción se debe pagar en el banco de BBVA, o en línea"
                             },
-                        "synonyms": ["inscripción"]
+                        "synonyms": ["inscripción", "registro", "matrícula", "alta", "aplicación", "proceso de registro", "formulario de inscripción", "incripcion", "inscripsion", "inscricion", "inscripcon", "inscripion"]
                         },
                     "ingles": {
                         "responses": {
                             "_": "La reinscripción se debe pagar en recursos financieros y se debe entregar el comprobante de pago al coordinador de idiomas."
                             },
-                        "synonyms": ["idiomas"]
+                        "synonyms": ["inglés", "idiomas", "lengua inglesa", "idioma inglés", "curso de inglés", "enseñanza de idiomas", "idioma extranjero", "lengua extranjera", "clases de inglés", "ingless", "examen de ingles", "examen ingles"]
                         },
                     "_": "Podrías especificar que buscas pagar. Por ejemplo: ¿Dónde pago mi reinscripción?"
                     },
-                "synonyms": ["pago"]
+                "synonyms": ["pagar", "abonar", "cancelar", "liquidar", "desembolsar", "efectuar el pago", "realizar el pago", "pago", "pagar", "pagarar", "pajar", "paggar", "paguar"]
             },
             "servicio":{
                 "responses": "El servicio social se hace una convocatoria, donde será notificada en la página de Facebook para iniciar.",
-                "synonyms": ["servicio social"]
+                "synonyms": ["servicio social", "prácticas profesionales", "voluntariado", "actividad social", "prácticas sociales", "servicio comunitario", "trabajo social", "labor social", "servisio social", "servicio socia", "sercicio social", "servisio socia", "servisio sosial", "serviso social"]
             },
             "creditos":{
                 "responses": {
                     "deportivo": {
                         "responses": "El crédito deportivo o cultural, se hace un registro, al inicio de cada semestre, para poder realizarlo.",
-                        "synonyms": ["cultural"]
+                        "synonyms": ["cultural", "artístico", "tradicional", "folklórico", "social", "de las artes", "culturale", "culturar", "cutural", "cultiral", "deportivo", "atlético", "deporte", "relacionado con el deporte", "deportista", "deportivos", "deportiva", "deporivo", "deportibo", "deportvo", "depotivo"]
                     },
                     "tutoria": {
                         "responses": "El crédito de tutorias, se te carga como materia al iniciar la carrera y al terminar te lo entregan, pero si repruebas, hay veces que se encuentran convocatorias para inscribirte.",
-                        "synonyms": ["tutorias"]
+                        "synonyms": ["tutorías", "sesiones de tutoría", "clases particulares", "asesoría académica", "apoyo académico", "orientación educativa", "tutoria", "tutoarias", "tutoreas", "tuturias", "tutorias"]
                     },
                     "complementario": {
                         "responses": "Suelen ser en eventos universitarios, se suelen publicar en las páginas oficiales del Instituto Tecnologico de Tijuana.",
-                        "synonyms": ["complementarios"]
+                        "synonyms": ["complementarios", "adicionales", "extra", "suplementarios", "optativos", "secundarios", "complementarias", "complemetarios", "complemetarias", "complemmentarios", "complementrarios"]
                     },
                     "_": "Para entregar tus créditos complementarios tienes que ir a dejar los documentos en coordinación, pero en Sistemas tienes que llenar un formulario."
                 },
-                "synonyms": ["credito"]
+                "synonyms": ["credito", "crédito académico", "créditos", "unidad de crédito", "valor académico", "puntos académicos", "créditos de curso", "creditos", "credito academico", "credtio academico", "credtios"]
             },
             "materias":{
                 "responses": "Para reinscribir tus materias se tiene que hacer en la página de: tijuana.ambar.tecnm.mx",
-                "synonyms": ["materia"]
+                "synonyms": ["materia", "asignatura", "curso", "tema", "especialidad", "disciplina", "área de estudio", "mtera", "matria", "matreia", "matera"]
             },
             "residencia": {
                 "responses": "Para la residencia, tienes que asistir a la junta, donde se te darán las instrucciones, y vas a llenar un formulario.",
-                "synonyms": ["materia"]
+                "synonyms": ["residencia profesional", "prácticas profesionales", "experiencia profesional", "internado profesional", "servicio profesional", "pasantía", "prácticas laborales", "residensia profesional", "residencia profecional", "residencia profesioanal", "residecia profesional"]
             }
         }
     },
     "cuanto": {
-        "synonyms": ["cuanto"],
+        "synonyms": ["cuanto", "cuánto", "cuántos", "qué cantidad", "cuánta cantidad", "cuál es el valor", "cuál es el precio", "qué tan", "qué tanto", "qué número", "cuál es el monto", "a cuánto", "qué volumen", "qué medida", "qué cantidad", "cuánto es", "cuáles", "qué cantidad de", "qué proporción", "qué volumen de", "cuánto valen", "qué monto", "qué costo", "cuál el valor", "cuál es el número", "qué tanto es"],
         "responses": {
-            "reinscripción": "La reinscripción tiene un costo de 2800 pesos.",
-            "ingles": "El examen de inglés tiene un costo de 500 pesos.",
-            "evento": "La biblioteca abre de lunes a viernes, de 8:00 AM a 9:00 PM.",
-            "evaluacion_docente": "La cafetería está abierta de 7:00 AM a 6:00 PM.",
-            "semestre": "",
-            "_" : "Le sugerimos algo como carreras, laboratorio, biblioteca, etc"
-        }
-    },
-    "que": {
-        "synonyms": ["qué", "información", "datos", "cosa", "tema", "detalle", "asunto", "elemento", "contenido", "referencia", "que", "qué", "k", "qu", "ke", "queé"],
-        "responses": {
-            "carreras": "Las carreras incluyen Ingeniería en Sistemas, Mecatrónica, y más.",
-            "laboratorio de electrónica": "El laboratorio de Electrónica cuenta con equipos avanzados para prácticas de circuitos y robótica.",
-            "biblioteca": "La biblioteca ofrece libros y recursos digitales para todas las carreras.",
-            "cafetería": "La cafetería ofrece menús saludables y snacks para estudiantes."
+            "reinscripción": {
+				"responses": "La reinscripción tiene un costo de 2800 pesos.",
+				"synonyms": ["inscripción", "registro", "matrícula", "alta", "aplicación", "proceso de registro", "formulario de inscripción", "incripcion", "inscripsion", "inscricion", "inscripcon", "inscripion"]
+			},
+            "ingles": {
+				"responses": "El examen de inglés tiene un costo de 500 pesos.",
+				"synonyms": ["inglés", "idiomas", "lengua inglesa", "idioma inglés", "curso de inglés", "enseñanza de idiomas", "idioma extranjero", "lengua extranjera", "clases de inglés", "ingless", "examen de ingles", "examen ingles"]
+			},
+            "_" : "Le sugerimos cuanto por ejemplo la reinscripción"
         }
     },
     "quien": {
         "synonyms": ["quién", "persona", "responsable", "individuo", "ser", "sujeto", "personaje", "autor", "titular", "protagonista", "quien", "quién", "kien", "kien", "quienn"],
         "responses": {
-            "carreras": "El departamento académico administra las carreras.",
-            "laboratorio de electrónica": "El responsable del laboratorio de Electrónica es el Profesor Juan Pérez.",
-            "biblioteca": "El personal de la biblioteca está a cargo de la Dra. Mariana González.",
-            "cafetería": "El encargado de la cafetería es el Sr. Luis Hernández."
+			"sistemas_computacionales": {
+				"responses": "Para Ing. en Sistemas Computacionales su coordinador es Ing. Laura Angélica Cegobiano García, atiende de lunes a viernes de 1:00 PM a 5:00 PM.",
+				"synonyms": ["sistemas computacionales", "ing sistemas ", "ing sistemas computacionales", "ing. sistemas computacionales", "ingeniería en sistemas computacionales", "sistemas", "tecnología de sistemas", "aula de sistemas computacionales", "desarrollo de software", "computación avanzada", "programación", "software engineering, sistemas"]
+			},
+			"_": "Podrías especificar mejor tu pregunta?."
+        }
+    },
+    "que": {
+        "synonyms": ["qué", "información", "datos", "cosa", "tema", "detalle", "asunto", "elemento", "contenido", "referencia", "que", "qué", "k", "qu", "ke", "queé", "dar", "solicito", "proporciona"],
+        "responses": {
+            "carreras": {
+                "responses": {
+                    "aeronautica": {
+                        "responses": "Para Ing. en Aeronautica se tiene este plan reticular: https://www.tijuana.tecnm.mx/ai-plan-reticular/",
+                        "synonyms": ["aeronautica", "aeronáutica", "ingeniería aeronáutica", "ing aeronáutica", "ing. aeronáutica", "aviación", "ciencias aeronáuticas", "aula de aeronáutica", "tecnología aeroespacial", "ingeniería aeroespacial", "aulas de aviación"]
+                    },
+                    "bioquimica": {
+                        "responses": "Para Ing. en Bioquimica se tiene este plan reticular: https://www.tijuana.tecnm.mx/ibq-plan-reticular/",
+                        "synonyms": ["bioquimica", "bioquímica", "ing bioquímica", "ing. bioquímica", "ingeniería bioquímica", "química aplicada", "aula de bioquímica", "ciencia de los alimentos", "biología química", "tecnología bioquímica", "bioingeniería"]
+                    },
+                    "electromecanica": {
+                        "responses": "Para Ing. en Electromecanica se tiene este plan reticular: https://www.tijuana.tecnm.mx/iem-plan-reticular/",
+                        "synonyms": ["electromecanica", "electromecánica", "ing electromecánica", "ing. electromecánica", "ingeniería electromecánica", "aula de electromecánica", "sistemas electromecánicos", "mecánica eléctrica", "tecnología electromecánica", "electrotecnia"]
+                    },
+                    "informatica": {
+                        "responses": "Para Ing. en Informatica se tiene este plan reticular: https://www.tijuana.tecnm.mx/li-plan-reticular/",
+                        "synonyms": ["informatica", "informática", "ing informática", "ing. informática", "ingeniería informática", "ciencia informática", "aula de informática", "tecnología de la información", "computación aplicada", "IT", "sistemas de información"]
+                    },
+                    "sistemas_computacionales": {
+                        "responses": "Para Ing. en Sistemas Computacionales se tiene este plan reticular: https://www.tijuana.tecnm.mx/isc-plan-reticular/",
+                        "synonyms": ["sistemas computacionales", "ing sistemas ", "ing sistemas computacionales", "ing. sistemas computacionales", "ingeniería en sistemas computacionales", "sistemas", "tecnología de sistemas", "aula de sistemas computacionales", "desarrollo de software", "computación avanzada", "programación", "software engineering, sistemas"]
+                    },
+                    "tecnologias_informacion": {
+                        "responses": "Para Ing. en Tecnologias de la Información y Comunicación se tiene este plan reticular: https://www.tijuana.tecnm.mx/tics-plan-reticular/",
+                        "synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+                    },
+                    "ciberseguridad": {
+                        "responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
+                        "synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
+                    },
+                    "inteligencia_artificial": {
+                        "responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
+                        "synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
+                    },
+                    "industrial": {
+                        "responses": "Para Ing. Industrial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2017/12/Reticula_Ingenieria_Industrial.pdf",
+                        "synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+                    },
+                    "mecanica": {
+                        "responses": "Para Ing. Mecánica se tiene este plan reticular: https://www.tijuana.tecnm.mx/im-plan-reticular/",
+                        "synonyms": ["mecanica", "mecánica", "ing mecánica", "ing. mecánica", "ingeniería mecánica", "aula de mecánica", "tecnología mecánica", "mecánica avanzada", "mecánica aplicada", "diseño mecánico", "sistemas mecánicos"]
+                    },
+                    "_": "Las carreras disponibles son Ing. Areonautica, Ing Bioquimica, Ing. Electromecanica, Ing. Informatica, Ing. Sistemas Computacionales, Ing TICs, Ing Ciberseguridad, Ing Inteligencia Artifical, Ing Industrial e Ing Mecánica. Puedes preguntar por ejemplo: Que carga academica tiene Ingeniería Industrial."
+                },
+                "synonyms": ["carrera", "programa académico", "plan de estudios", "trayectoria académica", "campo de estudio", "especialidad", "curso", "disciplina", "vocación", "área de conocimiento", "malla curricular", "estructura curricular", "plan de carrera", "carrera universitaria", "carrera técnica", "trayectoria profesional", "carga académica", "materia", "asignatura", "unidad de aprendizaje", "clase", "contenido académico", "cursos", "cursos académicos", "curso de estudios", "requisitos académicos", "requisitos de carrera", "optativas", "asignaturas optativas", "temas de estudio", "módulo académico", "formación académica", "horario académico", "unidad educativa", "carga de materias", "módulos de curso", "materias electivas", "materia obligatoria", "programa de estudio", "planes de formación", "estructura académica", "reticula"]
+            },
+	"aeronautica": {
+		"responses": "Para Ing. en Aeronautica se tiene este plan reticular: https://www.tijuana.tecnm.mx/ai-plan-reticular/",
+		"synonyms": ["aeronautica", "aeronáutica", "ingeniería aeronáutica", "ing aeronáutica", "ing. aeronáutica", "aviación", "ciencias aeronáuticas", "aula de aeronáutica", "tecnología aeroespacial", "ingeniería aeroespacial", "aulas de aviación"]
+	},
+	"bioquimica": {
+		"responses": "Para Ing. en Bioquimica se tiene este plan reticular: https://www.tijuana.tecnm.mx/ibq-plan-reticular/",
+		"synonyms": ["bioquimica", "bioquímica", "ing bioquímica", "ing. bioquímica", "ingeniería bioquímica", "química aplicada", "aula de bioquímica", "ciencia de los alimentos", "biología química", "tecnología bioquímica", "bioingeniería"]
+	},
+	"electromecanica": {
+		"responses": "Para Ing. en Electromecanica se tiene este plan reticular: https://www.tijuana.tecnm.mx/iem-plan-reticular/",
+		"synonyms": ["electromecanica", "electromecánica", "ing electromecánica", "ing. electromecánica", "ingeniería electromecánica", "aula de electromecánica", "sistemas electromecánicos", "mecánica eléctrica", "tecnología electromecánica", "electrotecnia"]
+	},
+	"informatica": {
+		"responses": "Para Ing. en Informatica se tiene este plan reticular: https://www.tijuana.tecnm.mx/li-plan-reticular/",
+		"synonyms": ["informatica", "informática", "ing informática", "ing. informática", "ingeniería informática", "ciencia informática", "aula de informática", "tecnología de la información", "computación aplicada", "IT", "sistemas de información"]
+	},
+	"sistemas_computacionales": {
+		"responses": "Para Ing. en Sistemas Computacionales se tiene este plan reticular: https://www.tijuana.tecnm.mx/isc-plan-reticular/",
+		"synonyms": ["sistemas computacionales", "ing sistemas ", "ing sistemas computacionales", "ing. sistemas computacionales", "ingeniería en sistemas computacionales", "sistemas", "tecnología de sistemas", "aula de sistemas computacionales", "desarrollo de software", "computación avanzada", "programación", "software engineering, sistemas"]
+	},
+	"tecnologias_informacion": {
+		"responses": "Para Ing. en Tecnologias de la Información y Comunicación se tiene este plan reticular: https://www.tijuana.tecnm.mx/tics-plan-reticular/",
+		"synonyms": ["tecnologías de la información", "ing tic", "ing tecnologías de la información", "ing. tecnologías de la información", "ingeniería en TIC", "TIC", "tecnologías de comunicación", "aula TIC", "tecnología de información", "TI", "información y comunicación", "comunicaciones digitales"]
+	},
+	"ciberseguridad": {
+		"responses": "Para Ing. en Ciberseguridad se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-ICBS-2024-249-P.pdf",
+		"synonyms": ["ciberseguridad", "ciberseguridad aplicada", "ing ciberseguridad", "ing. ciberseguridad", "ingeniería en ciberseguridad", "seguridad informática", "seguridad digital", "tecnología de ciberseguridad", "IT security", "cybersecurity", "protección de datos"]
+	},
+	"inteligencia_artificial": {
+		"responses": "Para Ing. en Inteligencia Artificial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2024/08/Reticula-IIART-2024-248-P.pdf",
+		"synonyms": ["inteligencia artificial", "IA", "ing inteligencia artificial", "ing. inteligencia artificial", "ingeniería en IA", "machine learning", "deep learning", "ciencia de datos", "inteligencia computacional", "tecnologías inteligentes", "sistemas de IA"]
+	},
+	"industrial": {
+		"responses": "Para Ing. Industrial se tiene este plan reticular: https://www.tijuana.tecnm.mx/wp-content/uploads/2017/12/Reticula_Ingenieria_Industrial.pdf",
+		"synonyms": ["industrial", "ing. industrial", "ing industrial", "ingeniería industrial", "procesos industriales", "aula de industrial", "producción", "optimización de sistemas", "logística", "gestión industrial", "sistemas industriales"]
+	},
+	"mecanica": {
+		"responses": "Para Ing. Mecánica se tiene este plan reticular: https://www.tijuana.tecnm.mx/im-plan-reticular/",
+		"synonyms": ["mecanica", "mecánica", "ing mecánica", "ing. mecánica", "ingeniería mecánica", "aula de mecánica", "tecnología mecánica", "mecánica avanzada", "mecánica aplicada", "diseño mecánico", "sistemas mecánicos"]
+	},
+	"_": "Puedes preguntar que tenemos disponible, por ejemplo: ¿Qué carreras hay en el Instituto Tecnologico de Tijuana."
         }
     }
 }
